@@ -1,0 +1,124 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background: rgba(69, 135, 201, 0.467);
+}
+h1{
+    text-align: light;
+    color: #070707;
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main .navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.main .navbar a, li{
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+    margin: 0 10px;
+    list-style: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    background-color: #fff;
+}
+.header h1{
+    font-size: 20px;
+}
+.content{
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.content .text-content{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.content .text-content marquee{
+    direction: right;
+}
+.minor-content{
+    text-align: center;
+}
+.content .paper-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 4px solid #070707;
+}
+h2{
+    text-align: left;
+}
+.content .paper-image img{
+    width: 400px;
+}
+#image-2{
+    transform: 45deg;
+    width: 269px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form .form-content{
+    padding: 20px;
+    width: 400px;
+    display: block;
+}
+
+.form .form-content input,textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.form .form-content input{
+    border: 1px solid #616161;
+    border-radius: 5px;
+}
+.form .form-content .submitt-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form .form-content .submitt-button button{
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #616161;
+}
+
+footer{
+    background: #070707;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
